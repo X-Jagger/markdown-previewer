@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.result{
+  	width:100%;
+  	margin-top: 15px
+}
+@media only screen and (min-width:900px) {
+	.output{
+	width:40%;
+	float:right;
+	}
+	textarea{
+	width:40%;
+
+	}
+}
+@media only screen and (max-width:899px) {
+	.output{
+	width:60%;
+	}
+	textarea{
+	width:60%;
+	}
+}	
+
+textarea{
+	resize: vertical;
+}
+.output{
+	display: inline-block;
+	margin-left: 30px;
+}
+.input{
+		margin-left: 30px;
+		padding:15px;	
+		display: inline-block;
+	}
